@@ -1,8 +1,7 @@
-# IPST-WiFi
-IPST-WiFi for KBIDE
+# TTGO TS v1.2 (1.44 TFT)
 
-## ความสามารถ
-บอร์ด IPST-WiFi ใช้โมดูลไมโครคอนโทรลเลอร์ 32 บิต ESP32 ที่มีไวไฟ(WiFi) และบลูทูธ(Bluetooth) มีหน่วยความจำ PSRAM 4MB มีอุปกรณ์อินพุตเอาต์พุตให้ใช้งานอย่างเพียงพอสำหรับการเรียนรู้และต่อยอดพัฒนาเป็นโครงงาน IoT ได้อย่างสะดวก ทั้งจอ OLED, สวิตช์, LED ปกติ, LED 3 สี RGB แบบโปรแกรมได้, ลำโพงขับเสียง, ตัวต้านทานปรับค่าได้สำหรับทดลองการแปลงสัญญาณแอนะล็อก เชื่อมต่ออุปกรณ์เพิ่มเติมผ่านบัส I2C
+TTGO TS v1.2
+ESP32, 1.44″ TFT, ลำโพง, MPU9250, 4 MB Flash, SD Card Slot, LiPo Battery Charger
+เป็นบอร์ด ESP32 หน่วยความจำ 4 MB พร้อมจอภาพ TFT ขนาด 1.44 นิ้ว, MPU9250 (9 Axis MEMS Sensor ประกอบด้วย 3-axis gyroscope, 3-axis accelerometer, และ 3-axis magnetometer), ลำโพง, SD Card Reader และวงจรชาร์จแบตเตอรี่ (LiPo)
 
-
-
+สั่งซื้อ : https://thai-maker.com/product/ttgo-ts-v12-144/
