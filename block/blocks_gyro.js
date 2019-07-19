@@ -4,7 +4,7 @@ module.exports = function(Blockly) {
   Blockly.Blocks["mpu_begin"] = {
     init: function() {
       this.appendDummyInput()
-        .appendField(new Blockly.FieldImage("https://image.flaticon.com/icons/svg/1137/1137754.svg",20,20,"*"))
+        .appendField(new Blockly.FieldImage("https://www.flaticon.com/premium-icon/icons/svg/1840/1840281.svg",25,25,"*"))
         .appendField("MPU begin");
       this.setInputsInline(true);
       this.setPreviousStatement(true, null);
@@ -18,8 +18,8 @@ module.exports = function(Blockly) {
   Blockly.Blocks["mpu_get_accelX"] = {
     init: function() {
       this.appendDummyInput()
-        .appendField(new Blockly.FieldImage("https://www.flaticon.com/premium-icon/icons/svg/1163/1163412.svg", 20, 20, "*"))
-        .appendField("MPU get accel X");
+        .appendField(new Blockly.FieldImage("https://image.flaticon.com/icons/svg/1960/1960556.svg", 25, 25, "*"))
+        .appendField("MPU get Accelerometer X");
       this.setOutput(true, "Number");
       this.setColour(330);
       this.setTooltip("MPU9250 triple-axis sensor");
@@ -30,8 +30,8 @@ module.exports = function(Blockly) {
   Blockly.Blocks["mpu_get_accelY"] = {
     init: function() {
       this.appendDummyInput()
-        .appendField(new Blockly.FieldImage("https://www.flaticon.com/premium-icon/icons/svg/1163/1163412.svg", 20, 20, "*"))
-        .appendField("MPU get accel Y");
+        .appendField(new Blockly.FieldImage("https://image.flaticon.com/icons/svg/1960/1960556.svg", 25, 25, "*"))
+        .appendField("MPU get Accelerometer Y");
       this.setOutput(true, "Number");
       this.setColour(330);
       this.setTooltip("MPU9250 triple-axis sensor");
@@ -42,8 +42,8 @@ module.exports = function(Blockly) {
   Blockly.Blocks["mpu_get_accelZ"] = {
     init: function() {
       this.appendDummyInput()
-        .appendField(new Blockly.FieldImage("https://www.flaticon.com/premium-icon/icons/svg/1163/1163412.svg", 20, 20, "*"))
-        .appendField("MPU get accel Z");
+        .appendField(new Blockly.FieldImage("https://image.flaticon.com/icons/svg/1960/1960556.svg", 25, 25, "*"))
+        .appendField("MPU get Accelerometer Z");
       this.setOutput(true, "Number");
       this.setColour(330);
       this.setTooltip("MPU9250 triple-axis sensor");
@@ -54,8 +54,8 @@ module.exports = function(Blockly) {
   Blockly.Blocks["mpu_get_gyroX"] = {
     init: function() {
       this.appendDummyInput()
-        .appendField(new Blockly.FieldImage("https://www.flaticon.com/premium-icon/icons/svg/1163/1163412.svg", 20, 20, "*"))
-        .appendField("MPU get gyro X");
+        .appendField(new Blockly.FieldImage("https://www.flaticon.com/premium-icon/icons/svg/1960/1960635.svg", 25, 25, "*"))
+        .appendField("MPU get Gyroscope X");
       this.setOutput(true, "Number");
       this.setColour(330);
       this.setTooltip("MPU9250 triple-axis sensor");
@@ -66,8 +66,8 @@ module.exports = function(Blockly) {
   Blockly.Blocks["mpu_get_gyroY"] = {
     init: function() {
       this.appendDummyInput()
-        .appendField(new Blockly.FieldImage("https://www.flaticon.com/premium-icon/icons/svg/1163/1163412.svg", 20, 20, "*"))
-        .appendField("MPU get gyro Y");
+        .appendField(new Blockly.FieldImage("https://www.flaticon.com/premium-icon/icons/svg/1960/1960635.svg", 25, 25, "*"))
+        .appendField("MPU get Gyroscope Y");
       this.setOutput(true, "Number");
       this.setColour(330);
       this.setTooltip("MPU9250 triple-axis sensor");
@@ -78,8 +78,8 @@ module.exports = function(Blockly) {
   Blockly.Blocks["mpu_get_gyroZ"] = {
     init: function() {
       this.appendDummyInput()
-        .appendField(new Blockly.FieldImage("https://www.flaticon.com/premium-icon/icons/svg/1163/1163412.svg", 20, 20, "*"))
-        .appendField("MPU get gyro Z");
+        .appendField(new Blockly.FieldImage("https://www.flaticon.com/premium-icon/icons/svg/1960/1960635.svg", 25, 25, "*"))
+        .appendField("MPU get Gyroscope Z");
       this.setOutput(true, "Number");
       this.setColour(330);
       this.setTooltip("MPU9250 triple-axis sensor");
@@ -90,8 +90,8 @@ module.exports = function(Blockly) {
   Blockly.Blocks["mpu_get_magX"] = {
     init: function() {
       this.appendDummyInput()
-        .appendField(new Blockly.FieldImage("https://www.flaticon.com/premium-icon/icons/svg/1163/1163412.svg", 20, 20, "*"))
-        .appendField("MPU get mag X");
+        .appendField(new Blockly.FieldImage("https://www.flaticon.com/premium-icon/icons/svg/1960/1960569.svg", 25, 25, "*"))
+        .appendField("MPU get Magnetometer X");
       this.setOutput(true, "Number");
       this.setColour(330);
       this.setTooltip("MPU9250 triple-axis sensor");
@@ -102,8 +102,8 @@ module.exports = function(Blockly) {
   Blockly.Blocks["mpu_get_magY"] = {
     init: function() {
       this.appendDummyInput()
-        .appendField(new Blockly.FieldImage("https://www.flaticon.com/premium-icon/icons/svg/1163/1163412.svg", 20, 20, "*"))
-        .appendField("MPU get mag Y");
+        .appendField(new Blockly.FieldImage("https://www.flaticon.com/premium-icon/icons/svg/1960/1960569.svg", 25, 25, "*"))
+        .appendField("MPU get Magnetometer Y");
       this.setOutput(true, "Number");
       this.setColour(330);
       this.setTooltip("MPU9250 triple-axis sensor");
@@ -114,8 +114,8 @@ module.exports = function(Blockly) {
   Blockly.Blocks["mpu_get_magZ"] = {
     init: function() {
       this.appendDummyInput()
-        .appendField(new Blockly.FieldImage("https://www.flaticon.com/premium-icon/icons/svg/1163/1163412.svg", 20, 20, "*"))
-        .appendField("MPU get mag Z");
+        .appendField(new Blockly.FieldImage("https://www.flaticon.com/premium-icon/icons/svg/1960/1960569.svg", 25, 25, "*"))
+        .appendField("MPU get Magnetometer Z");
       this.setOutput(true, "Number");
       this.setColour(330);
       this.setTooltip("MPU9250 triple-axis sensor");
@@ -126,8 +126,8 @@ module.exports = function(Blockly) {
   Blockly.Blocks["mpu_get_direction"] = {
     init: function() {
       this.appendDummyInput()
-        .appendField(new Blockly.FieldImage("https://www.flaticon.com/premium-icon/icons/svg/1163/1163412.svg", 20, 20, "*"))
-        .appendField("MPU get horizontal direction");
+        .appendField(new Blockly.FieldImage("https://www.flaticon.com/premium-icon/icons/svg/1840/1840351.svg", 25, 25, "*"))
+        .appendField("MPU get Horizontal Direction");
       this.setOutput(true, "Number");
       this.setColour(330);
       this.setTooltip("MPU9250 triple-axis sensor");
