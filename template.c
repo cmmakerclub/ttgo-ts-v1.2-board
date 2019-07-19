@@ -20,7 +20,7 @@ void setup()
   digitalWrite(TFT_BL, HIGH);
   tft.initR(INITR_18GREENTAB);
   tft.setTextWrap(false);
-  tft.setRotation(1);
+  tft.setRotation(0);
   tft.fillScreen(0x0000);
   tft.setTextSize(1);
   /* setup code */

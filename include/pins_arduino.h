@@ -14,6 +14,9 @@
 static const uint8_t TX = 1;
 static const uint8_t RX = 3;
 
+static const uint8_t GYRO_SDA     = 19;
+static const uint8_t GYRO_SCL     = 18;
+
 static const uint8_t TFT_BL     = 27;
 static const uint8_t TFT_CS     = 16;
 static const uint8_t TFT_DC     = 17;
